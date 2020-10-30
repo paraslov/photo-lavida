@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Street Photo | Tanya Sokol</title>
     <link type="text/css" rel="stylesheet" href="../phlavida.css">
-    <link rel="stylesheet" href="../css/street.css">
+    <link type="text/css" rel="stylesheet" href="../css/street.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -34,6 +36,14 @@
                         <a href="#" class="nav-menu__link">Обо мне</a>
                     </li>
                 </ul>
+                <div class="mobile-menu">
+                    <div class="mobile-menu__text">
+                        Выберете страницу
+                    </div>
+                    <div class="mobile-menu__burger">
+                        <span class="burger"></span>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -90,7 +100,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    
 
     <footer class="footer">
         <div class="desc-pannel">
@@ -117,6 +127,8 @@
         </div>
 
     </footer>
-    
+    </div>
+
+    <script src="../scripts/burger.js"></script>
 </body>
 </html>
