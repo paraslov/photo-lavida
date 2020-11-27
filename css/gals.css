@@ -1,0 +1,31 @@
+
+.title-text {
+    font-size: 1.6em;
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-image__container {
+    margin-top: 10px;
+    text-align: center;
+}
+.main-image {
+    width: 70%;
+}
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.gal-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
