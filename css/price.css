@@ -1,0 +1,16 @@
+.pricelist-wrapper {
+	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photoset-name__item {
+	padding: 30px;
+	border: 1px solid #666;
+}
+
+.category__item {
+	padding: 30px;
+	border: 1px solid #666;
+}
